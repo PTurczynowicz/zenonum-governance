@@ -4,13 +4,15 @@ Public governance record for **zenonum**.
 
 Zenonum is a system for building and running a product as a process: strategy, customer, problem, offer, experiments, requirements, implementation, assurance, and the next revision of all of those. It is built for a founder who has domain judgment and does not live in a repository.
 
-This repository shows **how that system is governed**. It is the differentiator: many agents, narrow mandates, no one allowed to approve their own work, a written decision behind every material change, and tests that can send the work back.
+This repository shows **how that system is governed**: many agents, narrow mandates, no role that proposes a change also accepts it, a written decision behind material changes, and tests that can send the work back.
 
 It does not publish the product’s intellectual property.
 
-**Streszczenie.** Jedno publiczne repozytorium o governance zenonum: architektura, silnik startupowy, interfejs, macierz ról agentów którzy zenonum budują i agentów którzy w zenonum pracują, fragment zanonimizowanego rejestru decyzji, separacja obowiązków i wynik testów. Wersja beta działa. Następny etap — ten sam ład, doprowadzony od zaakceptowanego kontraktu do działającej linii produktu — jest opisany jako architektura dostawy, nie jako osobny produkt.
+Polski opis: [README.pl.md](README.pl.md).
 
 ## What you can verify here
+
+Start with [Separation of duties](separation-of-duties.md) and the [Decision register](decision-register.md).
 
 | Record | What it shows |
 | --- | --- |
@@ -27,7 +29,7 @@ It does not publish the product’s intellectual property.
 
 ## Maturity
 
-Three words are used on purpose. They are the only caveat in this repository.
+Three words are used on purpose. They mark what is operating today. Limits are stated in the Limitations section below and in [Assurance](assurance.md).
 
 | Word | Meaning |
 | --- | --- |
@@ -44,16 +46,22 @@ Figures from the construction that produced the closed beta. They move as the pr
 | | |
 | --- | --- |
 | Builder time on the factory | 116 hours |
-| Product code | on the order of 180,000 lines |
+| Calendar span | 2026, alongside a full-time role |
+| Product code | about 180,000 lines |
 | Application modules | about 200 |
 | Automated checks | more than 3,000 |
 | Versioned schema migrations | more than 100 |
 | API routes | about 120 |
-| Product agents | 24 |
+| Product agents | 24, in 15 roles |
+| Factory roles | 8 |
 | Scoring passes | 6 |
-| Documentation graph | tens of megabytes, addressed as nodes, never pasted in full |
+| Documentation graph | about 35 MB, addressed as nodes, never pasted in full |
 
-One person. A semi-technical generalist. A workflow that was the product under test.
+One person: a generalist with a finance and product background, not an engineer. A workflow that was the product under test.
+
+## Limitations
+
+This is the work of one author. The architecture, the security posture, and the code have not been independently reviewed, and nothing here claims compliance with any regulation or standard. The closed beta has been used by 10 external testers on their own projects. The delivery stage is specified, not yet built. The figures come from the author’s own tooling, and they move as the product changes.
 
 ## What this repository refuses to contain
 
@@ -64,10 +72,14 @@ One person. A semi-technical generalist. A workflow that was the product under t
 - Secrets, host layout, allowlists, and credentials
 - A license to build a copy
 
-Copyright in this text stays with the author. Reading it is not a grant to reproduce the product.
+Copyright in this text stays with the author, Paweł Turczynowicz. Reading it is not a grant to reproduce the product.
 
 ## Why governance is the product
 
 Models converge on the average product for a category. A founder’s advantage is empathy, unusual knowledge, and hypotheses far from that average. Zenonum’s job is to keep that advantage inside a process that can still be audited.
 
 Autonomy is the default where the action is reversible, isolated, and already covered by a check. The founder is interrupted where the decision needs a human who can actually make it: taste, risk appetite, spend, secrets, legal exposure, irreversible data. Everything else is a role with a stop condition.
+
+## Authorship
+
+Prepared with the help of AI agents and edited by the author. © 2026 Paweł Turczynowicz. [LinkedIn](https://www.linkedin.com/in/pawel-turczynowicz)

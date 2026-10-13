@@ -37,11 +37,11 @@ A **node** is one durable object: a problem, a customer segment, a goal, an expe
 
 The founder does not edit that graph as a database. The founder talks. A coach answers in plain language. A separate extractor proposes the canonical write. Deterministic services then recompute what the change did to the rest of the map. Background agents look for gaps, contradictions, and risks on their own clocks.
 
-Administration is a different door: models, prompts, skills, test operations, and observability. A founder session cannot open it.
+Administration is a different door: models, prompts, skills, test operations, and observability. A founder session has no route to it.
 
 ## Factory
 
-The factory is the agentic workflow that built the platform and still changes it.
+The factory is the agentic workflow that built the platform and still changes it. It has 8 roles (see [Agents that build zenonum](agents-that-build.md)).
 
 Documentation is the source of truth. Code is the current materialization of an accepted contract. An agent does not receive the whole archive. It receives a **harvest**: which nodes, how deep (title, body, essence, variables), and which files it may touch.
 
@@ -93,4 +93,4 @@ If a step must be repeatable, it is a versioned service. The model is not asked 
 
 ## External tools
 
-Cursor is the workshop the factory was proven in. The delivery architecture treats any capable engineering or browser runner as a replaceable executor. Zenonum keeps the task identity, the context package, the authority boundary, the expected result, the evidence format, and the verdict. The executor does not keep them.
+Cursor is the workshop the factory was built in. The delivery architecture treats any capable engineering or browser runner as a replaceable executor. Zenonum keeps the task identity, the context package, the authority boundary, the expected result, the evidence format, and the verdict. The executor does not keep them.

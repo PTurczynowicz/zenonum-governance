@@ -2,6 +2,8 @@
 
 These roles build and change the platform. They are not the coach a founder talks to. They are the factory.
 
+The factory has 8 roles. They are not to be confused with the 24 product agents in 15 roles listed in [Agents inside zenonum](agents-inside.md).
+
 Each role has a mandate and a stop. Combining them into one “helpful assistant” was tried, in spirit, every time a loose instruction said “just implement it.” The work then shipped without a contract. The catalog of commands and the walls below exist because that shortcut is how the system stops being governable.
 
 ## Founder decision desk
@@ -62,6 +64,6 @@ After acceptance stops, the founder decides the fate of the report. A real defec
 
 The price is mandatory: why the rule was opened, and how it will be tightened so the breach does not become a door. A resolver that skips that price is out of mandate.
 
-## What the factory proved
+## What the factory produced
 
 The closed beta was built by this loop, from strategy through atoms, contracts, automated checks, and human acceptance. Parallel threads were allowed only when they did not stack on the same file, decision, or gate. The main line moved forward. History was not rewritten to clean a mistake. A mistake became a rule, a contract, or a test.

@@ -1,6 +1,6 @@
 # Agents inside zenonum
 
-These roles serve the founder’s venture. Twenty-four product agents is the operating count, plus deterministic engines that are deliberately not agents.
+These roles serve the founder’s venture. The operating count is 24 product agents in 15 roles, plus deterministic engines that are deliberately not agents.
 
 The founder meets one voice. The others work on the graph, on a schedule, or behind administration.
 

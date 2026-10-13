@@ -2,7 +2,7 @@
 
 This is an excerpt, rewritten for publication. Internal identifiers, host names, customer material, and prompt text are removed. The full register stays private, because the reasoning often names contracts and instructions that are the product’s intellectual property.
 
-Each row is a decision that still binds. “Status” uses the same three words as the rest of this repository.
+Each row is a decision that still binds. “Status” uses the same three words as the rest of this repository. Status is the author’s own assessment and has not been independently verified.
 
 | Id | Decision | Why it was taken | Status |
 | --- | --- | --- | --- |
@@ -16,7 +16,7 @@ Each row is a decision that still binds. “Status” uses the same three words 
 | ZG-08 | A risk reviewer may stop a hop. The implementer may not clear that stop. | Autonomy hides contract drift, weak structure, and a decision that fights an earlier assumption. | Operating |
 | ZG-09 | A trivial defect may be fixed in the workshop only when the breach is recorded and the rule is tightened. | Speed is real. An unpriced exception becomes the normal path. | Operating |
 | ZG-10 | Parallel work is allowed only on disjoint files, decisions, and gates. The main line moves forward. History is not rewritten. | Side branches were the alternative. The research chose isolation in the loop, and acceptance caught the collisions that remained. | Operating |
-| ZG-11 | Secrets never travel through a prompt or a tool argument. Acceptance uses a dedicated test identity, injected by the runner. | A credential in a prompt is already leaked, including into the next context. | Operating |
+| ZG-11 | Secrets must not travel through a prompt or a tool argument, and result files pass a redaction guard. Acceptance uses a dedicated test identity, injected by the runner. | A credential in a prompt is already leaked, including into the next context. | Operating |
 | ZG-12 | Closed beta, administration, and acceptance are different allowlists. A public interface description is off on staging and production. | One list is how a test user becomes an operator. | Operating |
 | ZG-13 | Scores are instruments. The screen shows one representative number. Bounds stay in an integrator disclosure. | A range on the headline looks like false precision and like a promise. | Operating |
 | ZG-14 | External research runs only after the founder confirms the brief. | Unconfirmed search spends money and files facts the founder did not ask for. | Operating |

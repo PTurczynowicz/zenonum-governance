@@ -12,9 +12,9 @@ Nodes the founder works with include the shape of a plan: project, founder, cust
 
 Empty placeholders exist so the method can show a missing piece without pretending the founder already decided it. Stale placeholders age out by rule. The coach does not delete them in prose.
 
-## Six scoring passes
+## 6 scoring passes
 
-Operating. Six deterministic passes run over the graph. None of them is a model guessing a number.
+Operating. The graph goes through 6 deterministic passes. None of them is a model guessing a number.
 
 | Pass | What the founder is owed |
 | --- | --- |
@@ -25,7 +25,7 @@ Operating. Six deterministic passes run over the graph. None of them is a model 
 | Methodology completeness | Which part of the method is still empty |
 | Next-move priority | Which gap is worth the next conversation |
 
-The screen shows a single representative number. The number is an instrument. It is not the truth of the business. Bounds and machine detail stay off the default view and available only in an integrator disclosure.
+The screen shows one representative number. The number is an instrument. It is not the truth of the business. Bounds and machine detail stay off the default view and available only in an integrator disclosure.
 
 A hard constraint pass can stop progression when a fundamental limit is violated, such as runway. That stop is code, not a mood in the coach’s reply.
 
@@ -60,7 +60,7 @@ Context is assembled per need.
 
 The assembler chooses which nodes, which depth, and which files. Depth is a ladder: title, statement, essence, variables. An agent that is judging a local contradiction does not receive the entire history of the company. An agent that is reviewing a whole-plan risk does not receive every prompt in the platform.
 
-This is what makes a large documentation graph affordable. The operating archive is tens of megabytes. Pasting it into a prompt is a defect, not a thoroughness.
+This is what makes a large documentation graph affordable. The operating archive is about 35 MB. Pasting it into a prompt is a defect, not a thoroughness.
 
 ## Background care
 

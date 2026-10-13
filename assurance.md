@@ -16,9 +16,10 @@ Operating snapshot from the construction of the closed beta:
 | Secret scan on result files | A result that contains a key-shaped value is not written |
 | Human product-value scenario | Scripted journey with three separate verdicts |
 | Browser-assisted acceptance | Prepared scenarios, dedicated test user, screenshots, stop on doubt |
-| Closed beta | In use with allowlisted founders |
+| Closed beta | In use by 10 external testers on their own projects |
+| Independent code and security review | Not performed |
 
-Counts move. They are published here as the order of magnitude of the system that exists, not as a marketing ceiling.
+These counts come from the author’s own tooling and have not been independently verified. Counts move. They are published here as the order of magnitude of the system that exists, not as a marketing ceiling.
 
 ## Three verdicts, kept apart
 
@@ -89,6 +90,6 @@ Continuous change is acceptable when four things hold together: detection, conta
 
 ## What this does not claim
 
-The author of the system is not an impartial judge of whether the architecture, the security posture, and the code meet the bar of a regulated institution. The factory was built without that external judge, and the introductory note says so.
+The author of the system is not an impartial judge of whether the architecture, the security posture, and the code meet the bar of a regulated institution. The factory was built without that external judge, and the Limitations section of the README says so.
 
 What the evidence does support: a single generalist, in 116 hours, with this separation of duties, produced a closed beta on the order of the snapshot above, and the loop carried it from strategy through automated checks and human acceptance. The delivery stage is how that same evidence standard is meant to follow a founder’s product out of the plan and into a release.
